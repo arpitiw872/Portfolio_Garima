@@ -1,0 +1,111 @@
+body {
+  padding: 20px 0;
+  font: 300 14px "Lato", sans-serif;
+  color: #666756;
+  background: #fff;
+}
+
+p {
+    font-family: "late" sans-serif ;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: middle;
+}
+
+hr {
+  border-top: 4px solid #bbb;
+}
+
+.feature {
+    font-family: 'late', sans-serif ;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.heading {
+  margin-top: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.text-thin {
+    font-weight: 100;
+    color: black;
+}
+
+.tittle-super {
+    font-size: 50px;
+}
+
+.tittle-logo {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.image-small {
+    width: auto;
+    height: auto;
+}
+
+.image-large {
+     width: 100%;
+     height: 50%;
+}
+
+.feature-center {
+    text-align: center;
+}
+
+.feature-title {
+  color: #666756;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.feature-link {
+  font-size: 1.143em;
+  color: #abc;
+}
+
+@media only screen and (max-width: 992px) {
+  .heading {
+    text-align: center;
+  }
+
+  .heading-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .profile {
+    text-align: center;
+  }
+
+  .heading-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    text-align: center;
+  }
+
+  .heading-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .tittle-super {
+    font-size: 2.857em;
+  }
+}
